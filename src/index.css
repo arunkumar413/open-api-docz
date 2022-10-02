@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  border: solid 1px grey;
+}
+
+aside {
+  width: 299px;
+  left: 0px;
+  border: solid 0.5px grey;
+  min-height: 800px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+main {
+  left: 300%;
+  width: 600px;
+  border: solid 1px grey;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100% 500px ;
+
+}
